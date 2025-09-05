@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pip install -U "huggingface_hub[cli]"
 # Base directories
 WORKSPACE_DIR="/workspace"
 COMFYUI_DIR="${WORKSPACE_DIR}/ComfyUI"
